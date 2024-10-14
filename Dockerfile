@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 # Bundle app source
 COPY . .
 
-COPY server-package.json package.json
+#COPY server-package.json package.json
 
 # Install app dependencies
 RUN set -x \
